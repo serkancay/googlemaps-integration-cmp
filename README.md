@@ -1,14 +1,14 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+# Compose Multiplatform: Google Maps Integration 🌍
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+This repository demonstrates how to integrate Google Maps into a Compose Multiplatform project, providing support for both Android and iOS platforms.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## Features ✨
+- Cross-platform map rendering with Compose Multiplatform.
+- Dynamic marker creation based on a list of coordinates.
+- Camera adjustments to fit all markers within bounds.
+- Platform-specific implementations for Android and iOS.
 
+## Learn More 📖
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+For a detailed explanation of this integration, check out the blog post:  
+[How to Integrate Google Maps in Compose Multiplatform](https://www.serkancay.com/2024/11/24/how-to-integrate-google-maps-in-compose-multiplatform/)
